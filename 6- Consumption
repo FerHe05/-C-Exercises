@@ -1,0 +1,12 @@
+//Calculate a car's average consumption being provided the total distance traveled (in Km) and the spent fuel total (in liters).
+#include <stdio.h>
+
+int main(){
+	int X;
+	double Y,media;
+	scanf("%d %lf",&X,&Y);
+	media = X / Y;
+	printf("%0.3lf km/l\n", media);
+	
+	return 0;
+}
