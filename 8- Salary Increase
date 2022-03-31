@@ -1,0 +1,37 @@
+//Read the employee's salary, calculate and print the new employee's salary, as well the money earned and the increase percentual obtained by the employee,
+//with corresponding messages in Portuguese, as the below example.
+#include <stdio.h>
+
+int main(){
+
+float salario,reajuste,porcentual[5]={0.15,0.12,0.10,0.07,0.04};
+
+scanf("%f",&salario);
+
+if(salario >=0 && salario<=400){
+	printf("New Salary: R$%0.2f",reajuste = (salario * porcentual[0])+salario);
+	printf("\nMoney Earned:%0.2f",reajuste = (salario * porcentual[0]));
+	printf("\nIn porcentage:%0.2f",porcentual[0]);
+	
+	}else if(salario >400 && salario<=800){
+	printf("New Salary: R$%0.2f",reajuste = (salario * porcentual[1])+salario);
+	printf("\nMoney Earned:%0.2f",reajuste = (salario * porcentual[1]));
+	printf("\nIn porcentage:%0.2f",porcentual[1]);
+	
+	}else if(salario >800 && salario<=1200){
+	printf("New Salary: R$%0.2f",reajuste = (salario * porcentual[2])+salario);
+	printf("\nMoney Earned:%0.2f",reajuste = (salario * porcentual[2]));
+		printf("\nIn porcentage:%0.2f",porcentual[2]);
+		
+	}else if(salario >1200 && salario<=2000){
+	printf("New Salary: R$%0.2f",reajuste = (salario * porcentual[3])+salario);
+	printf("\nMoney Earned:%0.2f",reajuste = (salario * porcentual[3]));
+	printf("\nIn porcentage:%0.2f",porcentual[3]);
+	
+	}else if(salario >2000){
+	printf("New Salary: R$%0.2f",reajuste = (salario * porcentual[4])+salario);
+	printf("\nMoney Earned:%0.2f",reajuste = (salario * porcentual[4]));
+	printf("\nIn porcentage:%0.2f",porcentual[4]);
+	}
+return 0;
+}
